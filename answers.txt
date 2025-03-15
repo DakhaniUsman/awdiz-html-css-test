@@ -1,0 +1,247 @@
+*** HTML
+
+1. HTML and its key features
+. HTML stands for Hypertext Markup Language 
+. The term hypertext means a text within text or a text which has a link to another text and Markup means a tags and elements 
+. It is used to create webpages 
+. HTML is the structure (backbone) of a webpage without which a web page cannot be created.
+. It consits of various elements and tags that are used to define the structure of a web page
+
+2. Difference between HTML 4 and HTML 5
+. The main difference between HTML 4 and HTML 5 are the introduction of scemantic tags like <section> <article> <aside> 
+
+3. Scemantic elements
+. The scemantic elements in HTML are the elements that have their own meaning and is used for better readability, SEO and accessiibility.
+. Some of the examples of scemantic elements in HTML are :  
+    - <section> : It is used to group elements that are used for a certain components or elements that are linked or similar to each other
+    - <aside> : It is used to write text that is to be shown at the side like links to other section 
+    - <article> : It is used to write text which we want to have a seperate meaning like quotes in a web page
+    - <header> : It is used to define the header of a web page
+    - <nav> : It is used to mention the navigation links in a HTML document
+    - <footer> : It is used at the end of the document to provide related links, email subscriptions and links to social media
+
+4. Difference between <div> and <span> : 
+    - <div> : It is a block level element means it takes the complete width in the document wherever it is used also the next div element comes on next line 
+    - <span> : It is a inline level element means it takes width only that is required and the next span element follows the previous one that is in the same line if there is sufficient space on the viewport
+
+5. Different types of list in HTML : 
+    - <dl> : Description list is used to provide a list type structure in HTML it contains <dt> Description title and <dd> Description data the     <dd> is shown with some indentation as compared to the <dt>.
+    - <ul> : Unordered list is a type of list in HTML where the list item <li> are not in a specific order having notations as dots, circle, square, etc
+    - <ol> : Ordered list in HTML is a type of list where the list items <li> are in specific arrangement or order here the notations are alpabets, numbers, roman numbers, etc
+
+6. Difference between <section> <article> and <aside> : 
+    - <section> : It is used to group elements that are used for a certain components or elements that are linked or similar to each other
+    - <article> : It is used to write text which we want to have a seperate meaning like quotes in a web page
+    - <aside> : It is used to write text that is to be shown at the side like links to other section 
+
+7. 
+. <meta> Tags in HTML are used to provide additional information about the web page
+. <meta> Tags are written in the head section of the document
+. <meta> Tags are also used for Search Engine Optimization of the web page
+. It is used to provide information like title, description, keywords used in a web page
+. Also if you want to preload some css or images into your web page you can do it through <meta> tags
+
+
+8. Difference between block-level and inline-elements : 
+    - block-level : block level elements take the complete width available in the viewport and the next element comes on the next line 
+    - inline-element : inline level elements takes width only taht is required and the next element follows the previous inline element
+
+9. <iframe> tag in HTML
+. <iframe> tag is used to embded videos, maps or even web pages from one wesbite to another website
+. we can use <iframe> tag to embded youtube videos, google maps, part of another website into our web page
+. <iframe> tag is basically a rectangular section of user provided width and height that shows data of another website into our web page
+
+10. <figure> and <figcaption>
+. <figure> is a scemantic element that is used to show canvas or images in such a way that it is more readable, seo optimized and accesible by the web readers
+. <figcaption> is also a scemantic element that is used to provide caption for the images or canvas displayed in the <figure> element
+
+11. Difference between <b> <strong> and <i> and <em> : 
+. <b> and <strong> are both used to bolden the text within but strong tag specificies the browsers that the text within is important
+. <i> and <em> are both used to change the font style of the text within to italic but em tag specificies the browsers that the text within is emphasized
+
+12. table in HTML
+. Tables is HTML can be created using the <table> element .
+. within the <table> element we need to specify the data which is to be shown in row as <tr> and the data which is to be shown in column as <td>
+. we can also use <th> tag to highlight the text as table heading
+<table>
+    <tr>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+. <thead> : table head is used to group elements that are to be the heading of table 
+. <tbody> : table body is used to group the elements that are to be shown as the body of the table 
+. <tfoot> : table footer is used to group the elements that are to be shown as the footer of the table 
+
+13. Difference between <form> and <fieldset> : 
+. <form> tag is used as a container for a complete form inside a HTML document it includes various elements like <fieldset> <input> <label> etc
+. <fieldset> tag is used to group certain elements inside a form that are used for similar purpose like input fields where user will enter his details can be grouped inside a <fieldset> element. The <fieldset> element also adds a border around the grouped elements
+
+14. data attribute
+. data attribute is used to provide the end value or a static value for the element like for example if you want to increase a count form 0 to 100 you have to give 100 value in the data attribute.
+
+
+15. audio and video in HTML
+. audio can be embdeded in an HTML document using the <audio> tag where we have to provide path of audio file inside src attribute
+. videos can be embdeded in an HTML document using the <video> tag where we have to provide path of video file inside src attribute also provide width and height
+
+
+16. input types in HTML
+. text : input type text is a general type where we can enter text numbers special characters anything
+. email : input type where we can enter our email it also has inbuilt validation that check wheather user has followed the format of email or not like using @
+. number : input type where user can only enter number it has two arrow keys used to increase or decrease the count by 1
+. password : used to hide the text within
+
+
+17 . localStorage sessionStorage and cookies
+. localStorage : it the virtual storage in our browsers that helps us to store data note the data within is not lost even if the page is refershed we have to manually delete the data . The data is stored in key value pair
+. sessionStorage : it the virtual storage in our browsers that helps us to store data temporarily note the data within is lost when the page is refershed . The data is stored in key value pair
+. cookies : cookies are used to store the data of user in the servers storage
+
+18. 
+. get mehod is used to access data from different server
+. post method is used to submit or sent data from our server to different server
+
+19.
+. HTML pages can be made accesible by using the scemantic tags, using attributes like title for images so that the screen readers can easily read through our page.
+. Make sure to follow the structure like h1 should be used once as the main heading than h2 below that h3 and like wise this improves the accessiibility of the webpage
+
+20.
+. Best SEO practices that can be used to make web page SEO optimized are using meta tags inside which prodvide title of the web page, description about the web page, keywords for the webpage.
+. another practices is of using title in the images for better readability and accessiibility
+. we can enhance the page for SEO by writing SEO optimized data like using keywrods is the paragraphs and highlighting them.
+
+*** CSS
+
+1. CSS 
+. CSS stands for Cascading Stylesheet. 
+. It is a Language used to style the HTML document by applying colours font-styles and aniimation to web page 
+. The Different types of CSS are : 
+    - Inline css : the css is written within the starting tag of the element
+    - Internal css : the css is written within the same HTML document
+    - External css : the css is written in a seperate file which is linked to the HTML document using link tag 
+
+2.
+. position relative : the div moves in according to the parent container and it space is not given to the next element
+. position absolute : the div moves in respect to the viewport starting or the nearest relative element its position is given to the next element
+. position fixed : the div is removed from the HTML document and is fixed to a certain position with respect to the viewport which does not changes
+. position sticky : the div is made stick to a certain position with respect to the parent element and sticks to that position untill the height of the parent element is reached
+
+
+3.
+. em : referes to the font size compared to the parent container
+. rem : refers to the font size compare to the document
+. px : referes to the font size in pixels
+. % : referes to the font size as compared to the viewport
+. vw : referes to the viewport width
+. vh : referes to the viewport height
+
+
+4. 
+. block : block  take the complete width available in the viewport and the next element comes on the next line 
+. inline : inline takes width only taht is required and the next element follows the previous inline element
+. inline-block : all the elements do come in a single line but each element has the block element property
+
+5. 
+. z-index is used to providing layering like z-index -1 take the container to the back of current container z-index 2 take the container on the top of current container.
+
+6.
+. pseudo-classes : :hover :active etc are the pseudo class in css that are like events which can be tracked using CSS
+    example button:hover{
+        backgorund-color: "black";
+    }
+. pseudo-element : before and after are the pseudo element in CSS that are used to apply css on the container without giving class name
+    example .main-container:before{
+        content : "";
+        width : "100%";
+        height : "50%";
+        backgorund-color : "red"
+    }
+
+
+7.
+.nth-child() refers to that particular child within a div 
+. nth-of-type() referes to that particular element of same type within the div
+
+8.
+. flexbox layout can be created by giving width and height to container
+. then display : 'flex' along with justify-content : 'x-axis' and align-items : 'y-axis'
+
+
+9. 
+. The main difference between flexbox and grid is that flexbox is 1 dimensional and grid is 2 dimensional
+
+10.
+. media querries are used to provide different css styling on the basis of screen sizes 
+. some of the screen break points are : 
+    - 1400px for laptops
+    - 720px for large tablets
+    - 500px for mobile devices
+
+    example : @media screen and (max-width: 1000px){
+        backgorund-color : 'red'
+    }
+
+    this will make the backgorund color as red till 1000px screen size
+
+11. Websites can be made resposive using the media querries like applying different stylings as per screen sizes or using flexbox or grids
+
+12.
+. min-width means the container should have atelast the provided minimum width whereas it can expand according to the screen size
+. max-width means the conatiner will have the provided maximum width wehereas it will shrink as compared to the screen size but wont expand much than the max-width
+. width is a the space that a container will take on the viewport it can be fixed using px or can be made responsive using % values
+
+
+13. Different css units used for responsive design are : 
+    - % : adjusts according to screen size
+    - min-width : adjusts according to screen size but only uptill specified minimum width
+    - max-width : adjusts according to screen size but only upto specified maximum width
+    - vw : adjusts according to screen size
+
+14.
+. we can apply custom CSS font by improting them into over file through online resources 
+. also we can apply custom css to different elements by giving them seperate font-family values
+
+
+15. Keyframes in CSS
+. keyframes in css are used to provide special animation effects to the elements
+. keyframes are used in percentage value from 0 to 100 .
+. at 0 % initially how should an element behave
+. at 50 % iniat mid how should an element behave
+. at 100 % finally how should an element behave
+
+@keyframes naimtion-name{
+    0%{
+        transfrom : rotate(90deg)
+    }
+    50%{
+        transfrom : rotate(180deg)
+    }
+    0%{
+        transfrom : rotate(0deg)
+    }
+}
+
+
+16.
+. transfrom is used to move or rotate the element in accordance to its position
+. transition is the time duration uptill when the animation is document
+. animation is the special effect that is applied to the element
+
+17.
+. clip-path is used to cip an image or to direct the path of an element through css
+
+18.
+. a footer can be made sticky by applying position : "sticky" and giving bottom : "0px" and right: "0px" this will make the footer stick to bottom
+
+19. 
+. css can be optimized bye removing unnecessary property and values and writing a cleaner bug free code 
+
+20. 
+. visibility : hidden hides the element from users view but is shown if inspected
+. display : none removes the element from dom and is not shown if inspected
+
+
+

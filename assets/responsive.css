@@ -1,0 +1,96 @@
+@media screen and (max-width: 1000px) {
+    header {
+      height: auto;
+    }
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .logo-container {
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+    .nav-links {
+      width: 80%;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+    .search-container {
+      width: 100%;
+      justify-content: left;
+      margin-bottom: 25px;
+    }
+  
+    .search-field {
+      width: 250px;
+    }
+  
+    .login-container {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar {
+      width: 100%;
+      padding: 0 10%;
+    }
+  
+    .nav-links {
+      width: 100%;
+    }
+  
+    .login-container {
+      width: 90px;
+    }
+
+    .subscription-container{
+      height: 100%;
+    }
+
+
+    .subscription{
+      flex-direction: column;
+      height: 95%;
+      gap: 30px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .subs-img{
+      display: flex;
+      height: max-content;
+      justify-content: center;
+    }
+
+
+    .subscription .subs-text{
+      width: 100%;
+      gap: 10px ;
+    }
+
+    .subs-btn{
+      width: 100%;
+      margin-right: 0px;
+      justify-content: center;
+    }
+
+    .subscription-container::after{
+      display: none  ;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .nav-links {
+      width: 100%;
+    }
+  
+    .login-container {
+      width: 90px;
+    }
+  }
